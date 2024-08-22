@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" version="24.7.7">
+  <diagram name="Page-1" id="ekWttA2EyP192pHgJUzW">
+    <mxGraphModel dx="1393" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="myKySlIPXiOMNn1PHDgH-1" value="&lt;div&gt;Produit&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;ID_Produit&lt;/u&gt;&lt;/div&gt;&lt;div&gt;PRIX_Produit&lt;/div&gt;&lt;div&gt;Libellé_Produit&lt;/div&gt;&lt;div&gt;NBMainOeuvre_Produit&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="254" y="10" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="myKySlIPXiOMNn1PHDgH-2" value="" style="endArrow=none;html=1;rounded=0;entryX=1.019;entryY=0.3;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="myKySlIPXiOMNn1PHDgH-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="55" as="sourcePoint" />
+            <mxPoint x="420" y="56" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="myKySlIPXiOMNn1PHDgH-3" value="&lt;div&gt;ProduitApprovissionné&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;u&gt;IDProduitAprovisionné&lt;/u&gt;&lt;/div&gt;&lt;div&gt;PRIX&lt;/div&gt;&lt;/div&gt;&lt;div&gt;Libellé&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="490" y="232.5" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="myKySlIPXiOMNn1PHDgH-4" value="" style="endArrow=none;html=1;rounded=0;exitX=0.006;exitY=0.392;exitDx=0;exitDy=0;entryX=1.025;entryY=0.4;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="myKySlIPXiOMNn1PHDgH-3" target="myKySlIPXiOMNn1PHDgH-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="810" y="470" as="sourcePoint" />
+            <mxPoint x="860" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="myKySlIPXiOMNn1PHDgH-6" value="&lt;div&gt;Fournisseur&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;IDFournisseur&lt;/u&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;Adresse&lt;/div&gt;&lt;/div&gt;&lt;div&gt;Ville&lt;/div&gt;&lt;div&gt;Nom&lt;/div&gt;&lt;div&gt;CodePostale&lt;/div&gt;&lt;div&gt;Téléphone&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="150" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="myKySlIPXiOMNn1PHDgH-7" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;elbow=vertical;" parent="1" source="myKySlIPXiOMNn1PHDgH-6" target="myKySlIPXiOMNn1PHDgH-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="680" as="sourcePoint" />
+            <mxPoint x="600" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="myKySlIPXiOMNn1PHDgH-9" value="&lt;div&gt;Date&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;DateLivraison_Commande&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="254" y="460" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="myKySlIPXiOMNn1PHDgH-10" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.44;exitDx=0;exitDy=0;entryX=1;entryY=0.43;entryDx=0;entryDy=0;elbow=vertical;exitPerimeter=0;entryPerimeter=0;" parent="1" source="myKySlIPXiOMNn1PHDgH-9" target="myKySlIPXiOMNn1PHDgH-9" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="810" as="sourcePoint" />
+            <mxPoint x="540" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="myKySlIPXiOMNn1PHDgH-13" value="&lt;div&gt;Commande&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;#ID_Produit&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;u&gt;#&lt;/u&gt;ID_Fournisseur&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;u&gt;#&lt;/u&gt;ID_ProduitApprovisionné&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;u&gt;#&lt;/u&gt;CodeEnsemble&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;IDCommande&lt;/div&gt;&lt;div&gt;Qté&lt;/div&gt;&lt;div&gt;PRIXFinal&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="200" width="160" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="myKySlIPXiOMNn1PHDgH-14" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;elbow=vertical;" parent="1" source="myKySlIPXiOMNn1PHDgH-13" target="myKySlIPXiOMNn1PHDgH-13" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="690" as="sourcePoint" />
+            <mxPoint x="740" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
